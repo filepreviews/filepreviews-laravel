@@ -1,2 +1,3 @@
 # filepreviews-laravel
-Laraval 5 service provider for FilePreviews.io
+
+Laravel 5 service provider for FilePreviews.io

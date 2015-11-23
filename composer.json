@@ -1,0 +1,41 @@
+{
+  "name": "filepreviews/filepreviews-laravel",
+  "description": "Laravel 5 service provider for FilePreviews.io",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "filepreviews",
+    "file",
+    "previews",
+    "thumbnails",
+    "metadata",
+    "exif",
+    "ocr"
+  ],
+  "homepage": "http://filepreviews.io",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "José Padilla",
+      "email": "jpadilla@blimp.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@blimp.io",
+    "source": "https://github.com/getblimp/filepreviews-laravel"
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "~5.1",
+    "filepreviews/filepreviews": "~1.0"
+  },
+  "require-dev": {
+    "illuminate/routing": "~5.0",
+    "mockery/mockery": "~0.9",
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": { "FilePreviews\\Laravel\\": "src/" }
+  }
+}
